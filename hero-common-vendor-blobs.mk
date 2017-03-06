@@ -61,12 +61,51 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
   vendor/samsung/hero-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
+  vendor/samsung/hero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+  vendor/samsung/hero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
+  vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+  vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
+  vendor/samsung/hero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+  vendor/samsung/hero-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
+  vendor/samsung/hero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+  vendor/samsung/hero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
   vendor/samsung/hero-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
   vendor/samsung/hero-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
   vendor/samsung/hero-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
-  vendor/samsung/hero-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-  vendor/samsung/hero-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
+  vendor/samsung/hero-common/proprietary/lib/libldc_core.so:system/lib/libldc_core.so \
+  vendor/samsung/hero-common/proprietary/lib64/libldc_core.so:system/lib64/libldc_core.so \
+  vendor/samsung/hero-common/proprietary/lib/libldc_interface.so:system/lib/libldc_interface.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomp.so:system/lib/libsomp.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomp.so:system/lib64/libsomp.so \
+  vendor/samsung/hero-common/proprietary/lib/libsmartfocusengine.so:system/lib/libsmartfocusengine.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsmartfocusengine.so:system/lib64/libsmartfocusengine.so \
+  vendor/samsung/hero-common/proprietary/lib/libsmartfocus_interface.so:system/lib/libsmartfocus_interface.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsmartfocus_interface.so:system/lib64/libsmartfocus_interface.so \
+  vendor/samsung/hero-common/proprietary/lib/libblurdetection.so:system/lib/libblurdetection.so \
+  vendor/samsung/hero-common/proprietary/lib64/libblurdetection.so:system/lib64/libblurdetection.so \
+  vendor/samsung/hero-common/proprietary/lib/libblurdetection_interface.so:system/lib/libblurdetection_interface.so \
+  vendor/samsung/hero-common/proprietary/lib64/libblurdetection_interface.so:system/lib64/libblurdetection_interface.so \
+  vendor/samsung/hero-common/proprietary/lib/libimage_flashed_lls.so:system/lib/libimage_flashed_lls.so \
+  vendor/samsung/hero-common/proprietary/lib64/libimage_flashed_lls.so:system/lib64/libimage_flashed_lls.so \
+  vendor/samsung/hero-common/proprietary/lib/libflashedlls_interface.so:system/lib/libflashedlls_interface.so \
+  vendor/samsung/hero-common/proprietary/lib64/libflashedlls_interface.so:system/lib64/libflashedlls_interface.so \
+  vendor/samsung/hero-common/proprietary/lib/libhighlight_interface.so:system/lib/libhighlight_interface.so \
+  vendor/samsung/hero-common/proprietary/lib64/libhighlight_interface.so:system/lib64/libhighlight_interface.so \
+  vendor/samsung/hero-common/proprietary/lib/libHighLightVideo.so:system/lib/libHighLightVideo.so \
+  vendor/samsung/hero-common/proprietary/lib64/libHighLightVideo.so:system/lib64/libHighLightVideo.so \
+  vendor/samsung/hero-common/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
+  vendor/samsung/hero-common/proprietary/lib64/libOpenCv.so:system/lib64/libOpenCv.so \
+  vendor/samsung/hero-common/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
+  vendor/samsung/hero-common/proprietary/lib64/libHpr_RecFace_dl_v1.0.so:system/lib64/libHpr_RecFace_dl_v1.0.so \
+  vendor/samsung/hero-common/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
+  vendor/samsung/hero-common/proprietary/lib64/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib64/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib64/libHpr_LocFace_mvfd_v1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib64/libHpr_LocLandmark_sdm_v1.0.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/libSEF.so:system/vendor/lib64/libSEF.so \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
   vendor/samsung/hero-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
@@ -84,6 +123,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
   vendor/samsung/hero-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_master_setfile.bin:system/vendor/firmware/companion_2l1_master_setfile.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_mode_setfile.bin:system/vendor/firmware/companion_2l1_mode_setfile.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_fw_2l1.bin:system/vendor/firmware/companion_fw_2l1.bin \
@@ -100,6 +141,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/firmware/setfile_2l1.bin:system/vendor/firmware/setfile_2l1.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/setfile_imx260.bin:system/vendor/firmware/setfile_imx260.bin \
+  vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/hero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
   vendor/samsung/hero-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
   vendor/samsung/hero-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
@@ -111,6 +153,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/hw/nfc_nci.universal8890.so:system/lib/hw/nfc_nci.universal8890.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/nfc_nci.universal8890.so:system/lib64/hw/nfc_nci.universal8890.so \
   vendor/samsung/hero-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
+  vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+  vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
+  vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+  vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -156,6 +202,74 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libagc_max.so:system/lib64/libagc_max.so \
   vendor/samsung/hero-common/proprietary/lib64/libmaxflicker.so:system/lib64/libmaxflicker.so \
   vendor/samsung/hero-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
+  vendor/samsung/hero-common/proprietary/lib64/libarac.so:system/lib64/libarac.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsavsac.so:system/lib64/libsavsac.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsavscmn.so:system/lib64/libsavscmn.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsavsff.so:system/lib64/libsavsff.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsavsmeta.so:system/lib64/libsavsmeta.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsavsvc.so:system/lib64/libsavsvc.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsnaace.so:system/lib64/libsnaace.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsnamrnb.so:system/lib64/libsnamrnb.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsnamrwb.so:system/lib64/libsnamrwb.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomx263dsw.so:system/lib64/libsomx263dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomx264dsw.so:system/lib64/libsomx264dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxaacd.so:system/lib64/libsomxaacd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxaace.so:system/lib64/libsomxaace.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxadpcmd.so:system/lib64/libsomxadpcmd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxamrd.so:system/lib64/libsomxamrd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxcmn.so:system/lib64/libsomxcmn.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxcore.so:system/lib64/libsomxcore.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxevrcd.so:system/lib64/libsomxevrcd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxevrce.so:system/lib64/libsomxevrce.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxflacd.so:system/lib64/libsomxflacd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxhevcdsw.so:system/lib64/libsomxhevcdsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp3d.so:system/lib64/libsomxmp3d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp43d.so:system/lib64/libsomxmp43d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp4vdsw.so:system/lib64/libsomxmp4vdsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxnaace.so:system/lib64/libsomxnaace.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxqcelpd.so:system/lib64/libsomxqcelpd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxqcelpe.so:system/lib64/libsomxqcelpe.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxsr263d.so:system/lib64/libsomxsr263d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxvc1dsw.so:system/lib64/libsomxvc1dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxvp8d.so:system/lib64/libsomxvp8d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmad.so:system/lib64/libsomxwmad.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv7d.so:system/lib64/libsomxwmv7d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv8d.so:system/lib64/libsomxwmv8d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsxqk.so:system/lib64/libsxqk.so \
+  vendor/samsung/hero-common/proprietary/lib/libarac.so:system/lib/libarac.so \
+  vendor/samsung/hero-common/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+  vendor/samsung/hero-common/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+  vendor/samsung/hero-common/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+  vendor/samsung/hero-common/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+  vendor/samsung/hero-common/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+  vendor/samsung/hero-common/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+  vendor/samsung/hero-common/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+  vendor/samsung/hero-common/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
   vendor/samsung/hero-common/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/samsung/hero-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
   vendor/samsung/hero-common/proprietary/lib64/libion.so:system/lib64/libion.so \
@@ -192,46 +306,4 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_murata_c0:system/etc/wifi/nvram_net.txt_murata_c0 \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
   vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_b1:system/etc/wifi/nvram_net.txt_wisol_b1 \
-  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0 \
-  vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-  vendor/samsung/hero-common/proprietary/lib/libldc_core.so:system/lib/libldc_core.so \
-  vendor/samsung/hero-common/proprietary/lib/libldc_interface.so:system/lib/libldc_interface.so \
-  vendor/samsung/hero-common/proprietary/lib/libsomp.so:system/lib/libsomp.so \
-  vendor/samsung/hero-common/proprietary/lib/libsmartfocusengine.so:system/lib/libsmartfocusengine.so \
-  vendor/samsung/hero-common/proprietary/lib/libsmartfocus_interface.so:system/lib/libsmartfocus_interface.so \
-  vendor/samsung/hero-common/proprietary/lib/libblurdetection.so:system/lib/libblurdetection.so \
-  vendor/samsung/hero-common/proprietary/lib/libblurdetection_interface.so:system/lib/libblurdetection_interface.so \
-  vendor/samsung/hero-common/proprietary/lib/libimage_flashed_lls.so:system/lib/libimage_flashed_lls.so \
-  vendor/samsung/hero-common/proprietary/lib/libflashedlls_interface.so:system/lib/libflashedlls_interface.so \
-  vendor/samsung/hero-common/proprietary/lib/libhighlight_interface.so:system/lib/libhighlight_interface.so \
-  vendor/samsung/hero-common/proprietary/lib/libHighLightVideo.so:system/lib/libHighLightVideo.so \
-  vendor/samsung/hero-common/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
-  vendor/samsung/hero-common/proprietary/lib/libHpr_RecFace_dl_v1.0.so:system/lib/libHpr_RecFace_dl_v1.0.so \
-  vendor/samsung/hero-common/proprietary/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-  vendor/samsung/hero-common/proprietary/lib64/libldc_core.so:system/lib64/libldc_core.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsomp.so:system/lib64/libsomp.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsmartfocusengine.so:system/lib64/libsmartfocusengine.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsmartfocus_interface.so:system/lib64/libsmartfocus_interface.so \
-  vendor/samsung/hero-common/proprietary/lib64/libblurdetection.so:system/lib64/libblurdetection.so \
-  vendor/samsung/hero-common/proprietary/lib64/libblurdetection_interface.so:system/lib64/libblurdetection_interface.so \
-  vendor/samsung/hero-common/proprietary/lib64/libimage_flashed_lls.so:system/lib64/libimage_flashed_lls.so \
-  vendor/samsung/hero-common/proprietary/lib64/libflashedlls_interface.so:system/lib64/libflashedlls_interface.so \
-  vendor/samsung/hero-common/proprietary/lib64/libhighlight_interface.so:system/lib64/libhighlight_interface.so \
-  vendor/samsung/hero-common/proprietary/lib64/libHighLightVideo.so:system/lib64/libHighLightVideo.so \
-  vendor/samsung/hero-common/proprietary/lib64/libOpenCv.so:system/lib64/libOpenCv.so \
-  vendor/samsung/hero-common/proprietary/lib64/libHpr_RecFace_dl_v1.0.so:system/lib64/libHpr_RecFace_dl_v1.0.so \
-  vendor/samsung/hero-common/proprietary/lib64/libHpr_TaskFaceClustering_hierarchical_v1.0.so:system/lib64/libHpr_TaskFaceClustering_hierarchical_v1.0.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib/libHpr_LocFace_mvfd_v1.0.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libSEF.so:system/vendor/lib64/libSEF.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libHpr_LocFace_mvfd_v1.0.so:system/vendor/lib64/libHpr_LocFace_mvfd_v1.0.so \
-  vendor/samsung/hero-common/proprietary/vendor/lib64/libHpr_LocLandmark_sdm_v1.0.so:system/vendor/lib64/libHpr_LocLandmark_sdm_v1.0.so \
-  vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-  vendor/samsung/hero-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-  vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-  vendor/samsung/hero-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so
+  vendor/samsung/hero-common/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0
