@@ -247,4 +247,4 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
   vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
   vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-  vendor/samsung/hero-common/proprietary/sbin/cbd:root/sbin/cbd
+  vendor/samsung/hero-common/proprietary/bin/cbd:system/bin/cbd
