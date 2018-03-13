@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
   vendor/samsung/hero-common/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/hero-common/proprietary/bin/gpsd:system/bin/gpsd \
+  vendor/samsung/hero-common/proprietary/bin/sdcard:system/bin/sdcard \
   vendor/samsung/hero-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
   vendor/samsung/hero-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
   vendor/samsung/hero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
